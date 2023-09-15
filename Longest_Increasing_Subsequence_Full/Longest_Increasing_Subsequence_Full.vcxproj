@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Longest_Increasing_Subsequence_Full.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\List_Of_Branch\List_Of_Branch.vcxproj">
+      <Project>{7f916c8a-4bc8-431e-9cdc-d81ccce594eb}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
